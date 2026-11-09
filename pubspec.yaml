@@ -1,0 +1,28 @@
+name: furniture_store
+publish_to: none
+version: 0.2.0
+
+environment:
+  sdk: ^3.9.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_web_plugins:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+
+  # Маршрутизация с поддержкой адресной строки браузера
+  go_router: ^17.5.0
+
+  # Управление состоянием
+  provider: ^6.1.5
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
